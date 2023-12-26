@@ -1,0 +1,15 @@
+name: Varox-Perks
+version: 0.0.1
+main: dev.charon.perks.plugin.PerkPlugin
+author: charonxyz
+description: Perks plugin for VaroxCraft
+api-version: 1.19
+
+depend:
+  - Vault
+  - LuckPerms
+
+commands:
+  perk:
+    aliases:
+      - perks
